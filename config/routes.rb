@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/vendors" => "vendors#index"
-
+  get "/vendors/:id" => "vendors#show"
+  
 end

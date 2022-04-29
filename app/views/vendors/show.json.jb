@@ -1,0 +1,8 @@
+{
+  id: @vendor.id,
+  name: @vendor.name,
+  location: @vendor.location,  
+  wares: @vendor.wares,
+  created_at: @vendor.created_at,
+  updated_at: @vendor.updated_at
+}

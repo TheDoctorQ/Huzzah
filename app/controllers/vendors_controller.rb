@@ -6,4 +6,9 @@ class VendorsController < ApplicationController
     render template: "vendors/index"
   end
   
+  def show
+    @vendor = Vendor.find_by(id: params[:id])
+    render template: "vendors/show"
+  end
+
 end

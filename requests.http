@@ -1,1 +1,4 @@
 GET http://localhost:3000/vendors.json
+
+###
+GET http://localhost:3000/vendors/1.json
