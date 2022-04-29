@@ -1,7 +1,8 @@
 class VendorsController < ApplicationController
 
   def index
-    @vendors = Vendors.all
+    @vendors = Vendor.all
+    # render json: @products
     render template: "vendors/index"
   end
   
