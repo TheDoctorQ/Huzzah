@@ -1,7 +1,7 @@
 GET http://localhost:3000/vendors.json
 
 ###
-GET http://localhost:3000/vendors/1.json
+GET http://localhost:3000/vendors/10.json
 
 ###
 POST http://localhost:3000/vendors.json

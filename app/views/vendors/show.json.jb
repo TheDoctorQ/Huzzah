@@ -3,6 +3,7 @@
   name: @vendor.name,
   location: @vendor.location,  
   wares: @vendor.wares,
+  images: @vendor.images,
   created_at: @vendor.created_at,
   updated_at: @vendor.updated_at
 }
