@@ -2,3 +2,16 @@ GET http://localhost:3000/vendors.json
 
 ###
 GET http://localhost:3000/vendors/1.json
+
+###
+POST http://localhost:3000/vendors.json
+Content-Type: application/json
+
+{
+  "name": "Boars Head Leather",
+  "location": "Near Blacksmith",
+  "wares": "Handcrafted Leatherworks",
+  "images": [
+    "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/8606977_orig.jpg", "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/s699691701519538591_p1_i1_w640.jpeg"
+  ]
+}

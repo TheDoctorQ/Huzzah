@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/vendors" => "vendors#index"
   get "/vendors/:id" => "vendors#show"
   
+  post "/vendors" => "vendors#create"
 end
