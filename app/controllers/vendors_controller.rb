@@ -30,4 +30,25 @@ class VendorsController < ApplicationController
     
   end
 
+  def update
+    # find the right vendor
+    @vendor = Vendor.find_by(id: params[:id])
+    # modify that vendor
+    @vendor.name = params[:name] || @vendor.name
+    @vendor.location = params[:location] || @vendor.location
+    @vendor.wares = params[:wares] || @vendor.wares
+
+    if @vendor.save
+      render json: @vendor
+    else
+      render json: {errors: @vendor.errors.full_messages}, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    vendor = Vendor.find_by(id: params[:id])
+    vendor.destroy
+    render json: {message: "vendor removed"}
+  end
+
 end

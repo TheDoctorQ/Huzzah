@@ -15,3 +15,48 @@ Content-Type: application/json
     "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/8606977_orig.jpg", "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/s699691701519538591_p1_i1_w640.jpeg"
   ]
 }
+
+###
+PATCH http://localhost:3000/vendors/10.json
+Content-Type: application/json
+
+{
+  "name": "Boars Head Leather",
+  "location": "Next to Blacksmith",
+  "wares": "Handcrafted Leatherworks",
+  "images": [
+    "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/8606977_orig.jpg", "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/s699691701519538591_p1_i1_w640.jpeg"
+  ]
+}
+
+###
+DELETE http://localhost:3000/vendors/10.json
+Content-Type: application/json
+
+{
+  "name": "Boars Head Leather",
+  "location": "Next to Blacksmith",
+  "wares": "Handcrafted Leatherworks",
+  "images": [
+    "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/8606977_orig.jpg", "https://www.boarsheadleather.com/uploads/1/0/1/7/10177442/s699691701519538591_p1_i1_w640.jpeg"
+  ]
+}
+
+###
+GET http://localhost:3000/events.json
+
+###
+GET http://localhost:3000/events/1.json
+
+###
+POST http://localhost:3000/events.json
+Content-Type: application/json
+
+{
+  "title": "Joust",
+  "location": "Joust Arena",
+  "time": "12:00PM",
+  "images": [
+    "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/joust-action-2048x1366.jpg", "https://arizona.renfestinfo.com/wp-content/uploads/2018/10/MaxYlwBlckKnight.jpg" 
+  ]
+}

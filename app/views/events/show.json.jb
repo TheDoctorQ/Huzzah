@@ -1,0 +1,9 @@
+{
+  id: @event.id,
+  name: @event.name,
+  time: @event.time,
+  location: @event.location,
+  images: @event.images,
+  created_at: @event.created_at,
+  updated_at: @event.updated_at
+}
