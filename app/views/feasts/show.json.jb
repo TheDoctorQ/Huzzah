@@ -1,0 +1,9 @@
+{
+  id: @feast.id,
+  name: @feast.name,
+  variety: @feast.variety,
+  location: @feast.location,
+  images: @feast.images,
+  created_at: @feast.created_at,
+  updated_at: @feast.updated_at
+}
