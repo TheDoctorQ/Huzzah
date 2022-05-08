@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/vendors/10.json
+DELETE http://localhost:3000/vendors/14.json
 Content-Type: application/json
 
 {

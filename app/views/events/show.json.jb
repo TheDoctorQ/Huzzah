@@ -1,6 +1,6 @@
 {
   id: @event.id,
-  name: @event.name,
+  name: @event.title,
   time: @event.time,
   location: @event.location,
   images: @event.images,

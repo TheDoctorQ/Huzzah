@@ -6,8 +6,10 @@ class EventsController < ApplicationController
   end
   
   def show
-    @event = Event.find_by(id: params[:id])
+    the_id = params[:id]
+    @event = Event.find_by(id: the_id)
     render template: "events/show"
+    # render json: @event
   end
 
   def create
@@ -17,12 +19,16 @@ class EventsController < ApplicationController
       location: params[:location]
     )
     
+    # if @event.save
+    params[:images].each do |image|
+        # image = Image.new(url: image, event_id: @event.id)
+      @event.images.new(url: image)
+    end
+        # image.save
     if @event.save
-      params[:images].each do |image|
-        image = Image.new(url: image, event_id: @event.id)
-        image.save
-      end
-      render json: @event.as_json
+      render template: "events/show"
+      # end
+      # render json: @event.as_json
     else
       render json: {errors: @event.errors.full_messages}, status: :unprocessable_entity
     end
@@ -36,9 +42,12 @@ class EventsController < ApplicationController
     @event.title = params[:title] || @event.title
     @event.time = params[:time] || @event.time
     @event.location = params[:location] || @event.location
-
+    params[:new_images].each do |new_image|
+      @event.images.new(url: new_image)
+    end
     if @event.save
-      render json: @event
+      # render json: @event
+      render template: "events/show"
     else
       render json: {errors: @event.errors.full_messages}, status: :unprocessable_entity
     end
