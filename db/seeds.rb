@@ -5,3 +5,46 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+Event.create!(
+  {Title: "Acrobatrix", Time: "12:30PM", Location: "Crown Stage"},
+  {Title: "Boom Boom Shake", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+  {Title: "Joust", Time: "12:30PM", Location: "TBD"},
+
+
+
+# Feast.create!(
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#   {Name: "Joust", Location: "12:30PM", Variety: "TBD"},
+#  )
+
