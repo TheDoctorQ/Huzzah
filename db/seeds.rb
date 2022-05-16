@@ -27,22 +27,34 @@
 # ])
 
 
-# Feast.create!(
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#   {Name: "Joust", location: "12:30PM", Variety: "TBD"},
-#  )
+# Feast.create!([
+#     {name: "Beverages", location: "Throughout the Kingdom!", variety: "Thirst-quenching beverages are available throughout the kingdom. Coors ~ Coors Light ~ Killians ~ Blue Moon ~ Sam Adams ~ Cider ~ Heineken ~ Mikes Hard Lemonade ~ Margaritas ~ Pina Coladas ~ Fine Wines ~ Mead ~ YE Olde Pepsi Products ~ Iced Teas ~ Lemonade ~ Aquafina Water"},
+#   {name: "Canterbury Kitchens", location: "Queen's Pantry on Caterbury Lane", variety: "Pork Tails ~ Turkey Legges ~ Chicken Teriyaki Croissant ~ Baron of Beef ~ Smashed Potatoes ~ Sausage ~ Pork Chop on a Stick ~ Barbecued Pork ~ Corn on the Cob ~ Fruit Cobbler ~ Ice Cream ~ Strawberry Shortcake"},
+#   {name: "Friar Tucks Bakery", location: "International Court", variety: "Cinnamon Rolls ~ Variety of Breads ~ Cakes and Pies ~ Cookies ~ Croissants ~ Gluten Free Goods ~ Chocolate Eclairs ~ Cream Puffs ~ Apple Dumplings ~ Bagels ~ Cheesecake on a Stick ~ Ice Cream Sandwiches ~ Brownies ~ Cannolis ~ Chai Tea ~ Gourmet Coffees ~ Herbal Teas ~ Juices"},
+#   {name: "International Food Court", location: "International Court", variety: "Pizza by the Slice ~ Bread Sticks ~ Yakitori Chicken ~ Lasagna ~ Smothered Burritos ~ Nachos ~ Meatball Sliders ~ Crepes ~ Apples with Caramel"},
+#   {name: "Joust Kitchens", location: "Joust Arena on Ye Olde Fortune Lane", variety: "Chicken Wraps ~ Turkey Legges ~ Sausage on a Stick ~ Earl of Bratwurst ~ Baked Potatoes ~ Baron Of Beef Sandwich ~ Corn on the Cob ~ Bread Bowls filled with Soup or Salad ~ Ice Cream ~ Fruit cobbler"},
+#   {name: "King’s Pantry", location: "Near Globe Stage on Ye Olde Fortune Lane", variety: "Steak on a Stake ~ Sausage on a Stick ~ Meatball Pie ~ Fish & Chips ~ Onion Rings ~ Cheese Bread ~ Fried Ice Cream ~ Pretzels with Dips ~ Spinach Pie ~ Pretzel Dog ~ Popcorn Shrimp & Chips ~ Clam Strips & Chips ~ Iced Tea ~ Root Beer ~ Lemonade"},
+#   {name: "Knight’s Kitchen", location: "Market Cross Lane", variety: "Knave Sandwich ~ Steak on a Stake ~ Sausage or Chicken on a Stick ~ Dragon Wings ~ Rueben Sandwich ~ Fried Cheese ~ Cheese Pie ~ Corn Dog ~ Sweet Potato Fries ~ Funnel Cakes ~ Fried Ice Cream ~ Onion Chips ~ Fried Pickles ~ Pretzels with Dips ~ Breaded Green Beans with peanut sauce ~ Potato Tots ~ Iced Tea ~ Orange Slush ~ Apple Cider ~ Orange Juice ~ Milk ~ Root Beer ~ Lemonade"},
+#   {name: "Queen’s Pantry", location: "Canterbury Lane", variety: "Artichokes ~ Red Beans and Rice with Sausage ~ Macaroni and Cheese on a Stick ~ Focaccia Sandwich ~ Chicken or Lamb Gyros ~ Fresh-Cut Fries ~ Crab Cakes ~ Der Banger Cheddar Brat ~ Big Ivan Polish Sausage ~ Portobello Mushroom Sandwich ~ Waffle Ice Cream Cone ~ Death by Chocolate ~ Banana Crepe ~ Baklava ~ Chocolate Mousse ~ Lemonade ~ Shaved Ice ~ Fruit Smoothies ~ Root Beer Float"},
+#   {name: "Royal Delights", location: "Near Joust Arena on Ye Olde Fortune Lane", variety: "Chocolate Covered Strawberries ~ Fudge ~ Truffles ~ Caramel Apples ~ Caramel Grizzles ~ Sea Salt Caramels ~ Toffee"},
+#  ])
 
+Vendor.create!([
+  # {name: "Arms & Honor", location: "Booth: 700B ~ Near the Joust Arena on Ye Old Fortune Lane", wares: "Wooden swords and shields for warriors of all ages!"},
+  # {name: "Badger Blades", location: "Booth: 135/136 ~ Near Main Entrance on Ye Old Fortune Lane", wares: "Fine edged Weaponry, Swords. Knives, and custom pieces"},
+  # {name: "Beowolf", location: "Booth: 2 ~ Next to Main Entrance", wares: "Men’s Apparel that’s certain to fit your needs, whether you’re a Pirate or a Prince."},
+  # {name: "Boars Head Leather", location: "Booth: 126/127 ~ Near the Pirate's Pub on Ye Old Fortune Lane", wares: "Handcrafted fine Leather work. Mugs, Pouches, Notebooks, Accessories and more."},
+  # {name: "Boss Wench", location: "Booth: 9 ~ Near Main Entrance on Market Cross Lane", wares: "A wonderful selection of women’s and children’s clothing."},
+  # {name: "Clockwork Traveler", location: "Booth: 83A ~ Near the King's Catapult on Noble Food Lane", wares: "Wearable pieces of clock inspired art."},
+  # {name: "Danny Boy Pipes", location: "Booth: 81 ~ Near the King's Catapult on Noble Food Lane", wares: "Hand-carved wooden pipes and accessories."},
+  # {name: "Dragons Lair Glass", location: "Booth: 137/138 ~ Near Main Entrance", wares: "Glass work, stained glass windows"},
+#   {name: "Firefly Fashions", location: "Booth: 25 ~ Near the Celestial Stage", wares: "Children’s costumes and renaissance accessories"},
+#   {name: "Hammocks By Linda", location: "Booth: 24 ~ Near the Celestial Stage", wares: "Hand-woven hammocks for both beauty and luxurious comfort."},
+#   {name: "Knotty Covers", location: "Booth: 69 ~ Near the Crown Stage on Canterbury Lane", wares: "Quilted and Embroidered bags, backpacks, purses, wall hangings and home goods. Featuring unique art inspired by Celtic designs and fantasy."},
+#   {name: "Leather By M. Ferrara", location: "Booth: 78 ~ Near the Blacksmith  on Noble Food Lane", wares: "Hand-dyed and crafted leather apparel for both comfort and style."},
+#   {name: "Queen’s Fancy", location: "Booth: 300 ~ Near the International Court", wares: "Beautiful bodices, smocks, outerwear and more. Clothing for men, women, and children."},
+#   {name: "The Bard’s Musik Shoppe", location: "Booth: 19 ~ Near the Celestial Stage", wares: "Bamboo flutes and musical instruments made with love."},
+#   {name: "The Honorable Company Of Metalsmiths", location: "Booth: 39 ~ Near the Celestial Stage on Market Cross Lane", wares: "Historic scientific instruments, puzzle rings, astrolabs; one of a kind metal art."},
+#   {name: "Village Costumer", location: "Booth: 1A ~ To the right of the Front Gate", wares: "Complete Costumes Include A Hat, Pouch, and Belt. We do not rent weapons, If you have comfortable shoes, boots or sandals that resemble Renaissance attire, bring them."},
+#   {name: "John Coiner Pottery", location: "Booth: 20 ~ Near the Celestial Stage at the West end of the Festival", wares: "Mugs, Horns, Drinking vessels, commemorative goblets and souvenirs."},
+# ])
