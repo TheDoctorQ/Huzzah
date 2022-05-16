@@ -39,7 +39,7 @@
 #   {name: "Royal Delights", location: "Near Joust Arena on Ye Olde Fortune Lane", variety: "Chocolate Covered Strawberries ~ Fudge ~ Truffles ~ Caramel Apples ~ Caramel Grizzles ~ Sea Salt Caramels ~ Toffee"},
 #  ])
 
-Vendor.create!([
+# Vendor.create!([
   # {name: "Arms & Honor", location: "Booth: 700B ~ Near the Joust Arena on Ye Old Fortune Lane", wares: "Wooden swords and shields for warriors of all ages!"},
   # {name: "Badger Blades", location: "Booth: 135/136 ~ Near Main Entrance on Ye Old Fortune Lane", wares: "Fine edged Weaponry, Swords. Knives, and custom pieces"},
   # {name: "Beowolf", location: "Booth: 2 ~ Next to Main Entrance", wares: "Men’s Apparel that’s certain to fit your needs, whether you’re a Pirate or a Prince."},
@@ -58,3 +58,48 @@ Vendor.create!([
 #   {name: "Village Costumer", location: "Booth: 1A ~ To the right of the Front Gate", wares: "Complete Costumes Include A Hat, Pouch, and Belt. We do not rent weapons, If you have comfortable shoes, boots or sandals that resemble Renaissance attire, bring them."},
 #   {name: "John Coiner Pottery", location: "Booth: 20 ~ Near the Celestial Stage at the West end of the Festival", wares: "Mugs, Horns, Drinking vessels, commemorative goblets and souvenirs."},
 # ])
+
+Image.create!([
+  # {url: "https://www.fairies.co.za/wp-content/uploads/2015/08/Wooden-Sword-and-Shield-for-kids.jpg", vendor_id: 15},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/badger-blades-1365x2048.jpg", vendor_id: 16},
+  # {url: "https://static.wixstatic.com/media/366648_88df178b1b8b4c8e963be8b021b1013b~mv2.jpg/v1/fill/w_560,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/366648_88df178b1b8b4c8e963be8b021b1013b~mv2.jpg", vendor_id: 17},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/Boardsheadleather-2048x1536.jpg", vendor_id: 18},
+  # {url: "https://img1.wsimg.com/isteam/ip/78e0a78a-6698-4d3f-b4ad-9e5e06c5b74b/blob-0001.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:984,h:653", vendor_id: 19},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/03/clockwork-traveler-2048x1365.jpg", vendor_id: 20},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/danyboy.jpeg", vendor_id: 21},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/dragons-lair-glass-2015x2048.jpg", vendor_id: 22},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/03/firefly-fashions-2048x1536.jpg", vendor_id: 23},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/hammocks-2048x976.jpg", vendor_id: 24},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/knotty-covers-2048x1536.jpg", vendor_id: 25},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/mferraleather.jpg", vendor_id: 26},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/03/unicorn-clothing-300.png", vendor_id: 27},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/03/bairds-music-rotated.jpeg", vendor_id: 28},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/honorble-metalsmiths.jpg", vendor_id: 29},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/01/village-costumer.jpeg", vendor_id: 30},
+  # {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/JohnCoiner-rotated.jpg", vendor_id: 31},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/acrobatrix-stage-2048x1367.jpg", event_id: 35},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/boom-boom-shake-2048x1365.jpg", event_id: 36},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/celtic-legacy.jpg", event_id: 37},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/sword-swallower-short.jpg", event_id: 38},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/dragonfire-e1643868024359.jpeg", event_id: 39},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/01/Kamikaze-Fireflies.jpeg", event_id: 40},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/bird3.jpg", event_id: 41},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/London-Broil-Caitlin-Rice-First-Place-scaled-1-1024x561-1.jpg", event_id: 42},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/Ayme-Hypnotist2.jpg", event_id: 43},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/the-angels-1.jpg", event_id: 44},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/01/final-weekend.jpg", event_id: 45},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/CrimsonTrio2.jpg", event_id: 46},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/04/joust-action-2048x1366.jpg", event_id: 47},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/living-fountain.jpg", event_id: 48},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/reelin-rogues.webp", event_id: 49},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/01/new-wenches.jpeg", event_id: 50},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/01/wine-weekend.jpg", feast_id: 3},
+  {url: "https://i.pinimg.com/originals/9f/7c/65/9f7c6524684133e053b2618d04782969.jpg", feast_id: 4},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/0-2048x1357.jpeg", feast_id: 5},
+  {url: "https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/20190607ppMercurios2FOOD-4-1560290763.jpg", feast_id: 6},
+  {url: "https://media-cdn.tripadvisor.com/media/photo-s/16/df/de/1c/mcupload-5baa590773792.jpg", feast_id: 7},
+  {url: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/steak-on-a-stake-paul-coco.jpg", feast_id: 8},
+  {url: "https://cdn.winsightmedia.com/platform/files/public/800x420/chicken-wings-variety.jpg", feast_id: 9},
+  {url: "https://coloradorenaissance.com/wp-content/uploads/sites/9/2022/02/Turkey-leg-short.jpg", feast_id: 10},
+  {url: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-strawberries-48f9511.jpg", feast_id: 11}
+])
